@@ -1,0 +1,10 @@
+1- creating action types in (action-types.js)
+2- creating action in (productAction.js)
+3- creating product reducer in a reducer file like (productReducer.js)
+4- combine all the reducer in index file of the reducder (reducer/index.js)
+5- creating store in (store.js)
+6- To link the react application to the redux , import provider in index.js and store as well. (main index.js file)
+7- To access the state from the store we use useSelector() hook. By this we can access all the combine reducers.
+8- dispatch an action 
+    - after passing data to an action it return an object (contains action type and payload(if any exists)) define in (action file) then after this object is taken by the reducer.
+    - reducer get the action type or payload (if any exists) or return a state with updating data with payload.
